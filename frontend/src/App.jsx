@@ -5,9 +5,9 @@ import TicketDashboard from './components/TicketDashboard';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#FDFDFD] text-[#111111] font-sans antialiased selection:bg-neutral-200">
       <Navbar />
-      <main className="container mx-auto px-4 py-8 max-w-5xl">
+      <main className="container mx-auto px-6 pt-32 pb-16 max-w-4xl">
         <Routes>
           <Route path="/" element={<SubmitTicket />} />
           <Route path="/dashboard" element={<TicketDashboard />} />
